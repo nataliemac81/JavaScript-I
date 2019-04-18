@@ -126,8 +126,7 @@ for (let i = 0; i < inventory.length; i++) {
     make = inventory[i].car_make;
     if (make === "BMW" || make === "Audi") {
         BMWAndAudi.push(make);
-    }
-       
+    }    
 }
 console.log(JSON.stringify(BMWAndAudi));
 
